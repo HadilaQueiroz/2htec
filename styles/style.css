@@ -1,0 +1,24 @@
+@import url("/styles/microvix.css");
+@import url("/styles/ecommerce.css");
+@import url("/styles/reshop.css");
+@import url("/styles/historia.css");
+@import url("/styles/blog.css");
+
+
+
+:root{
+    --cor-laranja: #feae01;
+    --cor-vermelho-escuro:#b4352f;  
+    --cor-preto: #131314;
+    --cor-branco: #ffffff;
+    --cor-cinza: #ececec;
+    --cor-azul-escuro:#411e5a;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    background-color: #fff; 
+    color: #411e5a;
+}

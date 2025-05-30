@@ -1,0 +1,128 @@
+
+   /*CONTATO TOPO WHATS*/
+.quem-somos-whats{
+    background: linear-gradient(to right,#ffbc40, #ff9300, #ff5d1f);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 20px 80px;
+    cursor: pointer;
+    transition:  0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.quem-somos-whats:hover {
+   background: linear-gradient(to right, #ff5d1f, #ff9300, #ffbc40 );
+}
+
+.microvix-whats:active {
+    background: #ff5d1f;
+}
+
+.microvix-whats .icon {
+    font-size: 1.2rem;
+}
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .text-section {
+      flex: 1 1 500px;
+    }
+
+    .text-section h1 {
+      font-size: 2.5em;
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    .text-section p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #555;
+    }
+
+    .text-section ul {
+      padding-left: 20px;
+      color: #444;
+      list-style-type: none; 
+    }
+
+    .image-section {
+      flex: 1 1 400px;
+      text-align: center;
+    }
+
+    .oval-image {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 20% 60% 60% 40% / 30% 40% 60% 80%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav.links {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    nav.links a {
+      color: #004080;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      transition: background-color 0.3s;
+    }
+
+    nav.links a:hover {
+      background-color: #f0f0f0;
+      border-radius: 4px;
+    }
+
+    .footer {
+      background-color: #006600;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+
+    .historia-footer-info{
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      header {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav.links {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
